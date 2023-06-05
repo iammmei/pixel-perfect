@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap");
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   color: #11053b;
 }
@@ -13,11 +16,14 @@ h1 {
 
 .liste {
   width: 70%;
+  margin: 20px;
 }
 .blocdroite {
   width: 30%;
   padding: 20px;
   margin-left: 50px;
+  margin-right: 0px;
+  padding-right: 0px;
 }
 
 ul,
@@ -29,6 +35,7 @@ ui {
 }
 .espace2 {
   padding: 15px;
+  padding-right: 0px;
 }
 .border {
   background-color: #ffd400;
@@ -39,4 +46,9 @@ hr {
   height: 1px;
   border: none;
   color: red;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
