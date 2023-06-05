@@ -1,20 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap");
 
+body {
+  color: #11053b;
+}
 h1 {
   font-family: "Playfair Display", serif;
+  margin: 20px;
 }
 .deuxblocs {
   display: flex;
 }
 
 .liste {
-  width: 60%;
+  width: 70%;
 }
 .blocdroite {
-  width: 40%;
+  width: 30%;
+  padding: 20px;
+  margin-left: 50px;
 }
 
 ul,
 ui {
   list-style-type: none;
+}
+.espace {
+  padding: 20px;
+}
+.espace2 {
+  padding: 15px;
+}
+.border {
+  background-color: #ffd400;
+  border: solid 1.75px #11053b;
+  border-radius: 5px;
+}
+hr {
+  height: 1px;
+  border: none;
+  color: red;
 }
