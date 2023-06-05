@@ -1,13 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+}
+all {
+  width: 1835px;
 }
 body {
   color: #11053b;
 }
 h1 {
   font-family: "Playfair Display", serif;
+  font-size: 59px;
   margin: 20px;
 }
 .deuxblocs {
@@ -15,23 +22,32 @@ h1 {
 }
 
 .liste {
-  width: 70%;
+  width: 1055px;
   margin: 20px;
 }
+
 .blocdroite {
-  width: 30%;
+  width: 735px;
   padding: 20px;
   margin-left: 50px;
   margin-right: 0px;
   padding-right: 0px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  font-size: 20px;
+  float: inline-end;
+  font-family: "Inter", sans-serif;
 }
 
 ul,
 ui {
   list-style-type: none;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
 }
 .espace {
-  padding: 20px;
+  padding: 15px;
 }
 .espace2 {
   padding: 15px;
@@ -52,3 +68,7 @@ li {
   flex-direction: row;
   justify-content: space-between;
 }
+
+/* .vide {
+  width: 380px;
+} */
