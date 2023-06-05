@@ -5,7 +5,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .container {
-  width: 300px;
+  width: 331px;
   height: 120px;
   border-radius: 10px;
   background-color: white;
@@ -19,17 +19,18 @@ body {
   display: block;
 }
 h1 {
-  font-size: 15px;
+  font-size: 14px;
   padding: 10px;
   padding-top: 0px;
   padding-left: 20px;
   margin: 5px;
   height: 30%;
   font-weight: 900;
+  margin-top: 0px;
 }
 p {
   color: #696969;
-  font-size: 12px;
+  font-size: 11px;
   padding: 10px;
   padding-left: 20px;
   padding-bottom: 0px;
@@ -37,10 +38,16 @@ p {
   margin: 7px;
   height: 20%;
   font-weight: 550;
+  margin-bottom: 0px;
 }
 img {
   float: left;
-  width: 90px;
+  padding-left: 15px;
+  padding-top: 15px;
+  width: 110px;
+  height: 90px;
   padding: 20px;
+  padding-top: 15px;
   border-radius: 20%;
+  margin-bottom: 15px;
 }
