@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap");
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+.deuxblocs {
+  display: flex;
+}
+
+.liste {
+  width: 60%;
+}
+.blocdroite {
+  width: 40%;
+}
+
+ul,
+ui {
+  list-style-type: none;
+}
