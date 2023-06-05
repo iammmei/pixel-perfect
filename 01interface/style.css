@@ -1,0 +1,29 @@
+body {
+  background-color: #f1f1f1;
+}
+.container {
+  width: 300px;
+  height: 120px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px rgb(215, 209, 209);
+  background-color: white;
+  margin: 20px;
+  display: flex;
+  position: relative;
+}
+.text,
+.text2 {
+  flex-direction: column;
+}
+h1 {
+  font-size: 17px;
+}
+p {
+  font-size: 14px;
+}
+img {
+  float: left;
+  width: 75px;
+  padding: 20px;
+  border-radius: 10px;
+}
