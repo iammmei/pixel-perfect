@@ -16,9 +16,11 @@ h1 {
   font-family: "Playfair Display", serif;
   font-size: 59px;
   margin: 20px;
+  margin-left: 45px;
 }
 .deuxblocs {
   display: flex;
+  margin: 45px;
 }
 
 .liste {
@@ -59,16 +61,12 @@ ui {
   border-radius: 5px;
 }
 hr {
-  height: 1px;
-  border: none;
-  color: red;
+  width: 1792px;
+  margin-left: 45px;
+  border: solid 1px#F7F7F7;
 }
 li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
-/* .vide {
-  width: 380px;
-} */
